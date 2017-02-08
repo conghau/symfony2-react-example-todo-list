@@ -1,0 +1,3 @@
+tch_todo_homepage:
+    path:     /
+    defaults: { _controller: TCHTodoBundle:Default:index }

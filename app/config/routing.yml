@@ -1,0 +1,15 @@
+tch_web:
+    resource: "@TCHWebBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tch_todo:
+    resource: "@TCHTodoBundle/Resources/config/routing.yml"
+    prefix:   /
+api:
+    resource: "."
+    type:     "api"
+    prefix:   '/api/v1' # Optional
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   "/doc"
