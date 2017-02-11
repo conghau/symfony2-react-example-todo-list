@@ -11,4 +11,6 @@
 * Cd `app\Resources\client`
 * Run `yarn install` or `npm install`
 * Run `yarn run start` or `npm run start`
-* Enjoy
+
+### Result see in folder Output
+^^Enjoy
