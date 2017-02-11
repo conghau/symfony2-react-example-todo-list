@@ -1,3 +1,6 @@
 tch_web_homepage:
     path:     /
     defaults: { _controller: TCHWebBundle:Default:index }
+tch_web_todo:
+    path:     /todo
+    defaults: { _controller: TCHWebBundle:Default:todo }

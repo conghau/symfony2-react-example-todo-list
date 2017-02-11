@@ -19,3 +19,5 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
     api_name: 'Your API name'
     api_description: 'The full description of your API'
+    page_size: 5
+    asset_version: ''

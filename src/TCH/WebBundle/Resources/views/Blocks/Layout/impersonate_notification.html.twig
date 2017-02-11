@@ -1,0 +1,10 @@
+{% if isImpersonated == true %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="note note-warning">
+                {{ 'notification.impersonate_status'|trans }} <b>{{ user.FirstName }}.</b>
+                <a href="{{ path('i_care_web_dashboard', {"_switch_user" : "_exit"}) }}">{{ 'notification.back_to_your_account'|trans }}</a>
+            </div>
+        </div>
+    </div>
+{% endif %}

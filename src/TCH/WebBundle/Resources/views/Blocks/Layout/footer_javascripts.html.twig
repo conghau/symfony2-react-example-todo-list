@@ -1,0 +1,40 @@
+{% javascripts
+'@TCHWebBundle/Resources/public/global/plugins/jquery.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/bootstrap/js/bootstrap.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/js.cookie.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/jquery.blockui.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js'
+'@TCHWebBundle/Resources/public/global/scripts/app.js'
+'@TCHWebBundle/Resources/public/global/plugins/jquery-validation/js/jquery.validate.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/jquery-validation/js/additional-methods.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/select2/js/select2.full.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/moment.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/moment-timezone-with-data.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js'
+'@TCHWebBundle/Resources/public/layouts/layout2/scripts/layout.min.js'
+'@TCHWebBundle/Resources/public/layouts/layout2/scripts/demo.min.js'
+'@TCHWebBundle/Resources/public/layouts/global/scripts/quick-sidebar.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/gos_websocket/autobahn.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/gos_websocket/gos_web_socket_client.js'
+'@TCHWebBundle/Resources/public/layouts/global/scripts/quick-sidebar.min.js'
+'@TCHWebBundle/Resources/public/pages/scripts/custom_call_reminer.js'
+output='bundles/tchweb/js/main.js' %}
+<script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+
+<!--[if lt IE 9]>
+{% javascripts
+'@TCHWebBundle/Resources/public/global/plugins/respond.min.js'
+'@TCHWebBundle/Resources/public/global/plugins/excanvas.min.js'
+output='bundles/tchweb/js/main_ie9.js'%}
+{% endjavascripts %}
+<![endif]-->
+
+{% if app.environment == 'dev' %}
+    <script src="http://127.0.0.1:3000/vendor.js"></script>
+    <script src="http://127.0.0.1:3000/app.js"></script>
+{% else %}
+    <script src="{{ asset('dist/vendor.'~ asset_version ~'.js') }}"></script>
+    <script src="{{ asset('dist/app.'~ asset_version ~'.js') }}"></script>
+{% endif %}

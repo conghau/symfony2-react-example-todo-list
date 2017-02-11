@@ -3,6 +3,7 @@
 namespace TCH\TodoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * CategoryItem
@@ -14,14 +15,34 @@ class CategoryItem extends BaseTCHEntity
 {
     /**
      * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @Groups({"category"})
+     */
+    protected $id;
+
+    /**
+     * @var int
      * @ORM\Column(name="category_id", type="integer")
      */
     protected $categoryId;
 
     /**
+     * Many Features have One Product.
+     *
+     * @var Category $category
+     * @ORM\ManyToOne(targetEntity="TCH\TodoBundle\Entity\Category", inversedBy="CategoryItem")
+     * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
+     */
+    protected $category;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="title", type="string", length=255)
+     * @Groups({"category"})
      */
     protected $title;
 
@@ -29,6 +50,7 @@ class CategoryItem extends BaseTCHEntity
      * @var string
      *
      * @ORM\Column(name="description", type="string", length=1000)
+     * @Groups({"category"})
      */
     protected $description;
 
@@ -92,5 +114,21 @@ class CategoryItem extends BaseTCHEntity
     public function setCategoryId($categoryId)
     {
         $this->categoryId = $categoryId;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * @param mixed $category
+     */
+    public function setCategory($category)
+    {
+        $this->category = $category;
     }
 }

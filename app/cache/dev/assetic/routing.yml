@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /var/www/html/symfony2-react-example-todo-list/app/config/routing_dev.yml

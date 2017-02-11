@@ -27,6 +27,238 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         $context = $this->context;
         $request = $this->request;
 
+        if (0 === strpos($pathinfo, '/bundles/tchweb')) {
+            if (0 === strpos($pathinfo, '/bundles/tchweb/js/main')) {
+                // _assetic_1deff1f
+                if ($pathinfo === '/bundles/tchweb/js/main.js') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => NULL,  '_format' => 'js',  '_route' => '_assetic_1deff1f',);
+                }
+
+                if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_')) {
+                    // _assetic_1deff1f_0
+                    if ($pathinfo === '/bundles/tchweb/js/main_jquery.min_1.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 0,  '_format' => 'js',  '_route' => '_assetic_1deff1f_0',);
+                    }
+
+                    // _assetic_1deff1f_1
+                    if ($pathinfo === '/bundles/tchweb/js/main_bootstrap.min_2.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 1,  '_format' => 'js',  '_route' => '_assetic_1deff1f_1',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_j')) {
+                        // _assetic_1deff1f_2
+                        if ($pathinfo === '/bundles/tchweb/js/main_js.cookie.min_3.js') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 2,  '_format' => 'js',  '_route' => '_assetic_1deff1f_2',);
+                        }
+
+                        if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_jquery.')) {
+                            // _assetic_1deff1f_3
+                            if ($pathinfo === '/bundles/tchweb/js/main_jquery.slimscroll.min_4.js') {
+                                return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 3,  '_format' => 'js',  '_route' => '_assetic_1deff1f_3',);
+                            }
+
+                            // _assetic_1deff1f_4
+                            if ($pathinfo === '/bundles/tchweb/js/main_jquery.blockui.min_5.js') {
+                                return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 4,  '_format' => 'js',  '_route' => '_assetic_1deff1f_4',);
+                            }
+
+                        }
+
+                    }
+
+                    // _assetic_1deff1f_5
+                    if ($pathinfo === '/bundles/tchweb/js/main_bootstrap-switch.min_6.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 5,  '_format' => 'js',  '_route' => '_assetic_1deff1f_5',);
+                    }
+
+                    // _assetic_1deff1f_6
+                    if ($pathinfo === '/bundles/tchweb/js/main_app_7.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 6,  '_format' => 'js',  '_route' => '_assetic_1deff1f_6',);
+                    }
+
+                    // _assetic_1deff1f_7
+                    if ($pathinfo === '/bundles/tchweb/js/main_jquery.validate.min_8.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 7,  '_format' => 'js',  '_route' => '_assetic_1deff1f_7',);
+                    }
+
+                    // _assetic_1deff1f_8
+                    if ($pathinfo === '/bundles/tchweb/js/main_additional-methods.min_9.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 8,  '_format' => 'js',  '_route' => '_assetic_1deff1f_8',);
+                    }
+
+                    // _assetic_1deff1f_9
+                    if ($pathinfo === '/bundles/tchweb/js/main_select2.full.min_10.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 9,  '_format' => 'js',  '_route' => '_assetic_1deff1f_9',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_moment')) {
+                        // _assetic_1deff1f_10
+                        if ($pathinfo === '/bundles/tchweb/js/main_moment.min_11.js') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 10,  '_format' => 'js',  '_route' => '_assetic_1deff1f_10',);
+                        }
+
+                        // _assetic_1deff1f_11
+                        if ($pathinfo === '/bundles/tchweb/js/main_moment-timezone-with-data.min_12.js') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 11,  '_format' => 'js',  '_route' => '_assetic_1deff1f_11',);
+                        }
+
+                    }
+
+                    // _assetic_1deff1f_12
+                    if ($pathinfo === '/bundles/tchweb/js/main_bootstrap-datepicker.min_13.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 12,  '_format' => 'js',  '_route' => '_assetic_1deff1f_12',);
+                    }
+
+                    // _assetic_1deff1f_13
+                    if ($pathinfo === '/bundles/tchweb/js/main_layout.min_14.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 13,  '_format' => 'js',  '_route' => '_assetic_1deff1f_13',);
+                    }
+
+                    // _assetic_1deff1f_14
+                    if ($pathinfo === '/bundles/tchweb/js/main_demo.min_15.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 14,  '_format' => 'js',  '_route' => '_assetic_1deff1f_14',);
+                    }
+
+                    // _assetic_1deff1f_15
+                    if ($pathinfo === '/bundles/tchweb/js/main_quick-sidebar.min_16.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 15,  '_format' => 'js',  '_route' => '_assetic_1deff1f_15',);
+                    }
+
+                    // _assetic_1deff1f_16
+                    if ($pathinfo === '/bundles/tchweb/js/main_autobahn.min_17.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 16,  '_format' => 'js',  '_route' => '_assetic_1deff1f_16',);
+                    }
+
+                    // _assetic_1deff1f_17
+                    if ($pathinfo === '/bundles/tchweb/js/main_gos_web_socket_client_18.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 17,  '_format' => 'js',  '_route' => '_assetic_1deff1f_17',);
+                    }
+
+                    // _assetic_1deff1f_18
+                    if ($pathinfo === '/bundles/tchweb/js/main_custom_call_reminer_20.js') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '1deff1f',  'pos' => 18,  '_format' => 'js',  '_route' => '_assetic_1deff1f_18',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_ie9')) {
+                        // _assetic_961540b
+                        if ($pathinfo === '/bundles/tchweb/js/main_ie9.js') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => '961540b',  'pos' => NULL,  '_format' => 'js',  '_route' => '_assetic_961540b',);
+                        }
+
+                        if (0 === strpos($pathinfo, '/bundles/tchweb/js/main_ie9_')) {
+                            // _assetic_961540b_0
+                            if ($pathinfo === '/bundles/tchweb/js/main_ie9_respond.min_1.js') {
+                                return array (  '_controller' => 'assetic.controller:render',  'name' => '961540b',  'pos' => 0,  '_format' => 'js',  '_route' => '_assetic_961540b_0',);
+                            }
+
+                            // _assetic_961540b_1
+                            if ($pathinfo === '/bundles/tchweb/js/main_ie9_excanvas.min_2.js') {
+                                return array (  '_controller' => 'assetic.controller:render',  'name' => '961540b',  'pos' => 1,  '_format' => 'js',  '_route' => '_assetic_961540b_1',);
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile')) {
+                // _assetic_a863daa
+                if ($pathinfo === '/bundles/tchweb/css/main_compile.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => NULL,  '_format' => 'css',  '_route' => '_assetic_a863daa',);
+                }
+
+                if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile_')) {
+                    // _assetic_a863daa_0
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_font-awesome.min_1.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 0,  '_format' => 'css',  '_route' => '_assetic_a863daa_0',);
+                    }
+
+                    // _assetic_a863daa_1
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_simple-line-icons.min_2.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 1,  '_format' => 'css',  '_route' => '_assetic_a863daa_1',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile_b')) {
+                        if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile_bootstrap')) {
+                            // _assetic_a863daa_2
+                            if ($pathinfo === '/bundles/tchweb/css/main_compile_bootstrap.min_3.css') {
+                                return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 2,  '_format' => 'css',  '_route' => '_assetic_a863daa_2',);
+                            }
+
+                            if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile_bootstrap-')) {
+                                // _assetic_a863daa_3
+                                if ($pathinfo === '/bundles/tchweb/css/main_compile_bootstrap-switch.min_4.css') {
+                                    return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 3,  '_format' => 'css',  '_route' => '_assetic_a863daa_3',);
+                                }
+
+                                // _assetic_a863daa_4
+                                if ($pathinfo === '/bundles/tchweb/css/main_compile_bootstrap-datepicker3.min_5.css') {
+                                    return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 4,  '_format' => 'css',  '_route' => '_assetic_a863daa_4',);
+                                }
+
+                            }
+
+                        }
+
+                        // _assetic_a863daa_5
+                        if ($pathinfo === '/bundles/tchweb/css/main_compile_build_6.css') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 5,  '_format' => 'css',  '_route' => '_assetic_a863daa_5',);
+                        }
+
+                    }
+
+                    if (0 === strpos($pathinfo, '/bundles/tchweb/css/main_compile_select2')) {
+                        // _assetic_a863daa_6
+                        if ($pathinfo === '/bundles/tchweb/css/main_compile_select2.min_7.css') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 6,  '_format' => 'css',  '_route' => '_assetic_a863daa_6',);
+                        }
+
+                        // _assetic_a863daa_7
+                        if ($pathinfo === '/bundles/tchweb/css/main_compile_select2-bootstrap.min_8.css') {
+                            return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 7,  '_format' => 'css',  '_route' => '_assetic_a863daa_7',);
+                        }
+
+                    }
+
+                    // _assetic_a863daa_8
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_components-md.min_9.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 8,  '_format' => 'css',  '_route' => '_assetic_a863daa_8',);
+                    }
+
+                    // _assetic_a863daa_9
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_plugins-md.min_10.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 9,  '_format' => 'css',  '_route' => '_assetic_a863daa_9',);
+                    }
+
+                    // _assetic_a863daa_10
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_layout.min_11.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 10,  '_format' => 'css',  '_route' => '_assetic_a863daa_10',);
+                    }
+
+                    // _assetic_a863daa_11
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_blue.min_12.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 11,  '_format' => 'css',  '_route' => '_assetic_a863daa_11',);
+                    }
+
+                    // _assetic_a863daa_12
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_custom_13.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 12,  '_format' => 'css',  '_route' => '_assetic_a863daa_12',);
+                    }
+
+                    // _assetic_a863daa_13
+                    if ($pathinfo === '/bundles/tchweb/css/main_compile_app_14.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => 'a863daa',  'pos' => 13,  '_format' => 'css',  '_route' => '_assetic_a863daa_13',);
+                    }
+
+                }
+
+            }
+
+        }
+
         if (0 === strpos($pathinfo, '/_')) {
             // _wdt
             if (0 === strpos($pathinfo, '/_wdt') && preg_match('#^/_wdt/(?P<token>[^/]++)$#s', $pathinfo, $matches)) {
@@ -114,13 +346,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'TCH\\WebBundle\\Controller\\DefaultController::indexAction',  '_route' => 'tch_web_homepage',);
         }
 
-        // tch_todo_homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'tch_todo_homepage');
-            }
-
-            return array (  '_controller' => 'TCH\\TodoBundle\\Controller\\DefaultController::indexAction',  '_route' => 'tch_todo_homepage',);
+        // tch_web_todo
+        if ($pathinfo === '/todo') {
+            return array (  '_controller' => 'TCH\\WebBundle\\Controller\\DefaultController::todoAction',  '_route' => 'tch_web_todo',);
         }
 
         if (0 === strpos($pathinfo, '/api/v1')) {

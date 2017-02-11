@@ -18,15 +18,6 @@ use Doctrine\ORM\Mapping as ORM;
 class BaseTCHEntity
 {
     /**
-     * @var int
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-
-    protected $id;
-    /**
      * @var \DateTime
      *
      * @ORM\Column(name="created_at", type="datetime")

@@ -1,6 +1,6 @@
 import CoreLayout from "../layouts/CoreLayout/CoreLayout";
 import Home from "./Home";
-import * as jobPageRouter from "./FE/Job";
+import * as Todo from "./Todo";
 
 export function createRoutes(store) {
     return {
@@ -8,7 +8,7 @@ export function createRoutes(store) {
         component: CoreLayout,
         indexRoute: Home,
         childRoutes: [
-            jobPageRouter.FeJobsRoute(store),
+            Todo.TodoRouter(store),
         ]
     };
 }

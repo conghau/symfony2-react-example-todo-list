@@ -1,0 +1,28 @@
+{% block stylesheets %}
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+          type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    {% stylesheets
+    'bundles/tchweb/global/plugins/font-awesome/css/font-awesome.min.css'
+    'bundles/tchweb/global/plugins/simple-line-icons/simple-line-icons.min.css'
+    'bundles/tchweb/global/plugins/bootstrap/css/bootstrap.min.css'
+    'bundles/tchweb/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css'
+    'bundles/tchweb/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css'
+    'bundles/tchweb/global/plugins/awesome-checkbox/build.css'
+    'bundles/tchweb/global/plugins/select2/css/select2.min.css'
+    'bundles/tchweb/global/plugins/select2/css/select2-bootstrap.min.css'
+    'bundles/tchweb/global/css/components-md.min.css'
+    'bundles/tchweb/global/css/plugins-md.min.css'
+    'bundles/tchweb/layouts/layout2/css/layout.min.css'
+    'bundles/tchweb/layouts/layout2/css/themes/blue.min.css'
+    'bundles/tchweb/layouts/layout2/css/custom.css'
+    'dist/app.css'
+    output='bundles/tchweb/css/main_compile.css' filter='cssrewrite' %}
+
+    <link rel="stylesheet" href="{{ asset_url }}"/>
+    {% endstylesheets %}
+    {% if app.environment == 'prod' %}
+    {% endif %}
+
+{% endblock %}

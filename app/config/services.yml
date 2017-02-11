@@ -10,8 +10,14 @@ services:
     resource.category:
         parent:    "api.resource"
         arguments: [ "TCH\\TodoBundle\\Entity\\Category" ]
+        calls:     [ [ "initNormalizationContext", [ [ { groups: [ "category" ] } ] ] ] ]
         tags:      [ { name: "api.resource" } ]
     resource.category_item:
-            parent:    "api.resource"
-            arguments: [ "TCH\\TodoBundle\\Entity\\CategoryItem" ]
-            tags:      [ { name: "api.resource" } ]
+        parent:    "api.resource"
+        arguments: [ "TCH\\TodoBundle\\Entity\\CategoryItem" ]
+        calls:
+            -      [ 'initFilters', [ [ '@resource.category_item.filter' ] ] ]
+        tags:      [ { name: "api.resource" } ]
+    resource.category_item.filter:
+        parent:    'api.doctrine.orm.search_filter'
+        arguments: [ { 'category': 'exact', 'id': 'exact' } ]

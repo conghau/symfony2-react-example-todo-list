@@ -1,0 +1,8 @@
+left_sidebar:
+    todo:  Todo
+breadcrumb:
+    home:   Home
+    todo:  Todo
+todo:
+    page_title: Todo
+    page_description: Todo Tool

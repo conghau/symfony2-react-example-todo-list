@@ -1,0 +1,40 @@
+<li id="notification-call-reminder" class="dropdown dropdown-extended dropdown-notification"
+    id="header_notification_bar">
+    <a id="notification-container" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"
+       data-hover="dropdown" data-close-others="true" aria-expanded="true">
+        <i class="icon-call-out"></i>
+        <span id="notification-call-reminder-badge"
+              class="badge badge-default">{{ callReminder.total|default(0) }}</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-default call-reminder">
+        <li class="external">
+            <h3>
+                <span class="bold">Call Remind</span></h3>
+        </li>
+        {% if callReminder['code']|default(200) == '500' or callReminder['items']|default([]) is empty %}
+            <li class="remind-item">No have call remind</li>
+        {% else %}
+            {% for reminder in callReminder['items'] %}
+                {#<li class="remind-item">#}
+                    {#<div class="cr-item">#}
+                        {#<div class="cr-left">#}
+                            {#<h3>{{ reminder.reminder_time|localizeddate('none', 'H:i') }}</h3>#}
+                            {#<h5>{{ reminder.reminder_time|localizeddate('Y-m-d') }}</h5>#}
+                        {#</div>#}
+                        {#<div class="cr-right">#}
+
+                            {#<h4>{{ reminder.customer_name }}</h4>#}
+                            {#<h4>{{ reminder.customer_phone }}</h4>#}
+                            {#<span>Customer: </span>#}
+                            {#<span>Phone: {{ reminder.customer_phone }}</span>#}
+                            {#<a href="#" onclick="return markReadReminder({{ reminder.id }})">Mark Read</a>#}
+                        {#</div>#}
+                        {#<div style="clear: both"></div>#}
+                    {#</div>#}
+                {#</li>#}
+            {% endfor %}
+        {% endif %}
+    </ul>
+</li>
+<style>
+</style>

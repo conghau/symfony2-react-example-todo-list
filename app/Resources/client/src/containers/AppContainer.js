@@ -18,7 +18,7 @@ class AppContainer extends Component {
 
     render() {
         const intlData = {
-            locale: lang || 'en',
+            locale: 'en',
             messages: iCareLocale
         };
         const {routes, store} = this.props;

@@ -1,0 +1,18 @@
+{% set currentRoute = app.request.attributes.get('_route') %}
+
+<div class="page-sidebar navbar-collapse collapse">
+    <!-- BEGIN SIDEBAR MENU -->
+    <ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-hover-submenu " data-keep-expanded="false"
+        data-auto-scroll="true" data-slide-speed="200">
+
+
+        <li class="nav-item start {% if currentRoute == 'tch_web_todo' %}active{% endif %}">
+            <a href="#" class="nav-link nav-toggle">
+                <i class="fa fa-dashboard"></i>
+                <span class="title">{{ 'left_sidebar.todo'|trans }}</span>
+                <span class="arrow"></span>
+            </a>
+        </li>
+    </ul>
+    <!-- END SIDEBAR MENU -->
+</div>

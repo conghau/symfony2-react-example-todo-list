@@ -2,7 +2,9 @@
 
 namespace TCH\TodoBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * Category
@@ -13,9 +15,20 @@ use Doctrine\ORM\Mapping as ORM;
 class Category extends BaseTCHEntity
 {
     /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @Groups({"category"})
+     */
+    protected $id;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="title", type="string", length=255)
+     * @Groups({"category"})
      */
     protected $title;
 
@@ -23,8 +36,23 @@ class Category extends BaseTCHEntity
      * @var string
      *
      * @ORM\Column(name="description", type="string", length=1000)
+     * @Groups({"category"})
      */
     protected $description;
+
+    /**
+     * @ORM\OneToMany(targetEntity="CategoryItem", mappedBy="category")
+     * @Groups({"category"})
+     */
+    protected $categoryItem;
+
+    /**
+     * Category constructor.
+     */
+    public function __construct()
+    {
+        $this->categoryItem = new ArrayCollection();
+    }
 
     /**
      * Set title
@@ -70,5 +98,21 @@ class Category extends BaseTCHEntity
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCategoryItem()
+    {
+        return $this->categoryItem;
+    }
+
+    /**
+     * @param mixed $categoryItem
+     */
+    public function setCategoryItem($categoryItem)
+    {
+        $this->categoryItem = $categoryItem;
     }
 }

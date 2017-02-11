@@ -19,6 +19,8 @@ class AppKernel extends Kernel
             new TCH\WebBundle\TCHWebBundle(),
             new Dunglas\ApiBundle\DunglasApiBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

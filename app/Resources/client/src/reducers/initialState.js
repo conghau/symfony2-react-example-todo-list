@@ -28,5 +28,11 @@ export default {
         totalJob: 0,
         errors: {},
         message: {}
+    },
+    todoList: {
+        todos: {},
+        todoItems: [],
+        errors: {},
+        message: {}
     }
 };

@@ -64,4 +64,6 @@
   63 => 'Symfony\\Bridge\\Monolog\\Handler\\DebugHandler',
   64 => 'Monolog\\Handler\\FingersCrossed\\ActivationStrategyInterface',
   65 => 'Monolog\\Handler\\FingersCrossed\\ErrorLevelActivationStrategy',
+  66 => 'Symfony\\Bundle\\AsseticBundle\\DefaultValueSupplier',
+  67 => 'Symfony\\Bundle\\AsseticBundle\\Factory\\AssetFactory',
 );
