@@ -90,7 +90,7 @@ class TodoPage extends React.Component {
                     aria-labelledby="contained-modal-title-lg">
                     <Modal.Header closeButton>
                         <Modal.Title>
-                            Add Item
+                            Add Todo
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body className="bg-default">

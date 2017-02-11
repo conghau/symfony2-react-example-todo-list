@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20e05a80-70b3-4637-8d26-1e9f6043365e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DB/db schema" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TCH/WebBundle/Resources/public/img/logos/icare_benefits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TCH/WebBundle/Resources/public/img/logos/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/tchweb/img/logos/icare_benefits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/tchweb/img/logos/logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/client/src/utils/AuthHelper.js" afterPath="$PROJECT_DIR$/app/Resources/client/src/utils/AuthHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js" afterPath="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js" afterPath="$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/51/5132cd136c3ae11994e57661ac37b99011cae14fb4ff2b21a453ebd5935450c8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/51/5132cd136c3ae11994e57661ac37b99011cae14fb4ff2b21a453ebd5935450c8.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Layout/main.html.twig" afterPath="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Layout/main.html.twig" />
     </list>
     <ignored path="symfony2-react-example-todo-list.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,6 +79,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="C_TodoForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Layout/main.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,31 +111,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxStatusActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/client/src/actions/ajaxStatusActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/client/src/actions/actionTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="127">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -184,8 +178,6 @@
         <option value="$PROJECT_DIR$/app/logs/dev.log" />
         <option value="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/client/src/actions/Todo/TodoAction.js" />
-        <option value="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js" />
-        <option value="$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js" />
         <option value="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoListItem.js" />
         <option value="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Pages/todo.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoDetailListItem.js" />
@@ -196,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Layout/main.html.twig" />
         <option value="$PROJECT_DIR$/src/TCH/WebBundle/Resources/views/Blocks/Layout/head_stylesheets.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js" />
+        <option value="$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js" />
       </list>
     </option>
   </component>
@@ -697,6 +691,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Output" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-react-example-todo-list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-react-example-todo-list" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1152,7 +1160,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../telesales-web" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/.gitignore&#10;AuthHelper&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/utils/AuthHelper.js&#10;C_TodoList&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/components/Todo/C_TodoListItem.js&#10;C_TodoDetailListItem&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/components/Todo/C_TodoDetailListItem.js&#10;todo.h&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/WebBundle/Resources/views/Pages/todo.html.twig&#10;dev.l&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/logs/dev.log&#10;con&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;ca&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/CategoryItem.php&#10;Cat&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/Category.php&#10;Dunglas\ApiBundle\Doctrine\Orm\Filter\SearchFilter&#9;null&#9;null&#10;onfi&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;Ca&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/CategoryItem.php&#10;ser&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/services.yml&#10;conf&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;page_top&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/WebBundle/Resources/views/Blocks/Layout/page_top.html.twig&#10;APp&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/AppKernel.php&#10;comp&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/composer.json&#10;para&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml&#10;par&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml.dist&#10;onf&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;parameter.yml.&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml.dist&#10;Config.y&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;composer&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/composer.json&#10;AppKe&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/AppKernel.php" />
+    <property name="SearchEverywhereHistoryKey" value="todo&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/containers/Todo/TodoPage.js&#10;.git&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/.gitignore&#10;AuthHelper&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/utils/AuthHelper.js&#10;C_TodoList&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/components/Todo/C_TodoListItem.js&#10;C_TodoDetailListItem&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/Resources/client/src/components/Todo/C_TodoDetailListItem.js&#10;todo.h&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/WebBundle/Resources/views/Pages/todo.html.twig&#10;dev.l&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/logs/dev.log&#10;con&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;ca&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/CategoryItem.php&#10;Cat&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/Category.php&#10;Dunglas\ApiBundle\Doctrine\Orm\Filter\SearchFilter&#9;null&#9;null&#10;onfi&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;Ca&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/TodoBundle/Entity/CategoryItem.php&#10;ser&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/services.yml&#10;conf&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;page_top&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/src/TCH/WebBundle/Resources/views/Blocks/Layout/page_top.html.twig&#10;APp&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/AppKernel.php&#10;comp&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/composer.json&#10;para&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml&#10;par&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml.dist&#10;onf&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;parameter.yml.&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/parameters.yml.dist&#10;Config.y&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/config/config.yml&#10;composer&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/composer.json&#10;AppKe&#9;FILE&#9;file:///var/www/html/symfony2-react-example-todo-list/app/AppKernel.php" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
@@ -1232,18 +1240,18 @@
       <option name="presentableId" value="Default" />
       <updated>1486555357112</updated>
       <workItem from="1486555359122" duration="27997000" />
-      <workItem from="1486785643831" duration="5747000" />
+      <workItem from="1486785643831" duration="6390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33744000" />
+    <option name="totallyTimeSpent" value="34387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1527,26 +1535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#47#86#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoListItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1703,8 +1691,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="127">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/client/src/containers/Todo/TodoPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/client/src/components/Todo/C_TodoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding />
         </state>
       </provider>

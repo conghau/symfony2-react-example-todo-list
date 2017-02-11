@@ -52,30 +52,24 @@ class C_TodoForm extends React.Component {
             <div className="">
                 <Form className="form-body" disabled="disabled" onSubmit={this.onAdvanceSearchSubmit}>
                     <Row>
-
-                        {/* Left */}
-                        <Col md={10}>
+                        <Col md={12}>
+                            <ControlLabel>Title</ControlLabel>
                             <FormGroup>
-                                <ControlLabel>Title</ControlLabel>
-                                <Row>
-                                    <Col md={12}>
-                                        <FormGroup>
-                                            <FormControl
-                                                type="text"
-                                                placeholder="title"
-                                                name="title"
-                                                value={this.state.title}
-                                                onChange={this.handleFormControlChange}/>
-                                        </FormGroup>
-                                    </Col>
-                                    <Col md={12}>
-                                        <FormGroup>
-                                            <textarea name="description"
-                                                      onChange={this.handleFormControlChange}
-                                                      value={this.state.description}></textarea>
-                                        </FormGroup>
-                                    </Col>
-                                </Row>
+                                <FormControl
+                                    type="text"
+                                    placeholder="title"
+                                    name="title"
+                                    value={this.state.title}
+                                    onChange={this.handleFormControlChange}/>
+                            </FormGroup>
+                        </Col>
+                        <Col md={12}>
+                            <ControlLabel>Description</ControlLabel>
+                            <FormGroup>
+                                        <textarea name="description"
+                                                  className="form-control"
+                                                  onChange={this.handleFormControlChange}
+                                                  value={this.state.description}></textarea>
                             </FormGroup>
                         </Col>
                     </Row>
@@ -94,8 +88,10 @@ class C_TodoForm extends React.Component {
                         </Col>
                     </Row>
                 </Form>
-            </div>
-        );
+            </
+                div >
+        )
+            ;
     }
 }
 

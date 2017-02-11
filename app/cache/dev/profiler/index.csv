@@ -102,3 +102,14 @@ ef10ce,127.0.0.1,GET,http://localhost:8000/web/bundles/tchweb/img/logos/logo5.jp
 b722d2,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486799624,,200
 2eab37,127.0.0.1,GET,http://localhost:8000/web/bundles/tchweb/img/logos/logo.jpg,1486799641,62654a,200
 62654a,127.0.0.1,GET,http://localhost:8000/web/bundles/tchweb/img/logos/logo.jpg,1486799641,,404
+6adebf,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486799971,,200
+858b04,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800020,,200
+052cfc,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800169,,200
+93e075,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800233,,200
+85b227,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800253,,200
+13955c,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800296,,200
+0a5bf4,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800333,,200
+380eab,127.0.0.1,GET,http://localhost:8000/api/v1/categories,1486800346,,200
+922494,127.0.0.1,GET,http://localhost:8000/api/v1/category_items?category=%2Fapi%2Fv1%2Fcategories%2F1,1486800367,,200
+e82667,127.0.0.1,POST,http://localhost:8000/api/v1/category_items,1486800419,,201
+6f98b5,127.0.0.1,GET,http://localhost:8000/api/v1/category_items?category=%2Fapi%2Fv1%2Fcategories%2F1,1486800419,,200
