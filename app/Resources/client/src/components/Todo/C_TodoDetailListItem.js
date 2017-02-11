@@ -14,6 +14,7 @@ class C_TodoDetailListItem extends React.Component {
             <tr>
                 <td>{this.props.todo.title || ''}</td>
                 <td>{this.props.todo.description || ''}</td>
+                <td>{this.props.todo.createdAt || ''}</td>
                 <td>
                     <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </td>
@@ -23,7 +24,7 @@ class C_TodoDetailListItem extends React.Component {
 }
 
 C_TodoDetailListItem.propTypes = {
-     todo: PropTypes.array.isRequired,
+     todo: PropTypes.object.isRequired,
 };
 
 export default C_TodoDetailListItem;

@@ -22,7 +22,8 @@ class C_TodoDetailList extends React.Component {
                 <thead>
                 <tr>
                     <th>Title</th>
-                    <th>Des</th>
+                    <th>Description</th>
+                    <th>Created At</th>
                     <th></th>
                 </tr>
                 </thead>
