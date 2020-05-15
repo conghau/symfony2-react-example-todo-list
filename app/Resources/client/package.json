@@ -105,7 +105,7 @@
     "react-addons-create-fragment": "^15.3.1",
     "react-bootstrap": "^0.30.3",
     "react-chartjs": "^0.8.0",
-    "react-datepicker": "^0.29.0",
+    "react-datepicker": "^0.64.0",
     "react-dom": "^15.0.0",
     "react-image-gallery": "^0.7.7",
     "react-intl": "^2.1.5",
