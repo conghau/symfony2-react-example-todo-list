@@ -107,7 +107,7 @@
     "react-chartjs": "^0.8.0",
     "react-datepicker": "^0.29.0",
     "react-dom": "^15.0.0",
-    "react-image-gallery": "^0.7.7",
+    "react-image-gallery": "^0.9.1",
     "react-intl": "^2.1.5",
     "react-intl-redux": "^0.1.0",
     "react-paginate": "^2.2.3",
